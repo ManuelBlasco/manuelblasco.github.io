@@ -25,7 +25,7 @@ To test my hypotheses empirically, I combine my theoretical framework with moder
 
 ## Research
 
-### Media Economics
+### Main Working Papers
 
 <details>
   <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">
@@ -51,9 +51,3 @@ To test my hypotheses empirically, I combine my theoretical framework with moder
   </div>
 </details>
 
-<hr>
-
-### Other Working Papers
-
-* **Title of your third paper**
-* **Title of your fourth paper**
