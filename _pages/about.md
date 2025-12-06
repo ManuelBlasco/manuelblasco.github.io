@@ -8,11 +8,9 @@ redirect_from:
   - /about.html
 ---
 
-**I am a Ph.D. Candidate in Economics at the University of Bologna and a candidate on the 2025-2026 Job Market.**
+**I am a Ph.D. Candidate in Economics at the University of Bologna. I expect to complete my Ph.D. in 2026 and will be available to discuss opportunities starting in Fall 2026.**
 
-I am a microeconomist specializing in **Media Economics** and **Information Economics**. My research focuses on developing theoretical models to understand how digital media incentives shape the supply and demand for information, and consequently, its quality.
-
-To test my hypotheses empirically, I combine my theoretical framework with modern **Text Analysis** techniques. Recently, I have also expanded my research agenda into **Experimental Economics**.
+I am a microeconomist working in Media Economics and Information Economics. My research examines how digital media incentives shape the supply, demand, and quality of information. I develop theoretical models and complement them with large-scale text and LLM analysis, and I am incorporating experimental methods to identify key mechanisms behind information choice and attention..
 
 ---
 
