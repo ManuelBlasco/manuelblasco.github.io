@@ -1,7 +1,7 @@
 ---
 permalink: /
-title: "About Me"
-excerpt: "About me"
+title: "Manuel Blasco"
+excerpt: "Manuel Blasco"
 author_profile: true
 redirect_from: 
   - /about/
