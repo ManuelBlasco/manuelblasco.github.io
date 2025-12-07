@@ -21,9 +21,7 @@ I am a microeconomist working in Media and Information Economics. My research ex
 
 ---
 
-## Research
-
-### Main Working Papers
+## Main Working Papers
 
 <details>
   <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">
@@ -44,7 +42,7 @@ I am a microeconomist working in Media and Information Economics. My research ex
   </summary>
   <div style="margin-top: 10px; margin-left: 20px; font-style: italic;">
     <p>
-     I use a unique NYT dataset in which each article appears simultaneously in two attention rankings—Most Viewed and Most Shared—to study how private and public use of news diverge for identical content. I combine these empirical patterns with a simple model of informational and signaling utility. Preliminary results show a consistent “scope wedge”: locally useful articles attract more private attention, while nationally framed and identity-related pieces are disproportionately shared. Moreover, contrary to common claims, shared articles are not simpler—they appear more sophisticated and moralizing, consistent with signaling rather than “dumbing down.”
+I exploit a unique dataset in which each article appears simultaneously in two attention rankings—Most Viewed and Most Shared—to study how private and public use of news diverge for identical content. I combine these empirical patterns with a simple model of informational and signaling utility. Preliminary results reveal a systematic “scope wedge”: locally useful articles attract more private attention, while nationally framed or identity-related pieces are disproportionately shared. Moreover, contrary to common claims, shared articles are not simpler—they are more sophisticated, consistent with signaling rather than “dumbing down.”
     </p>
   </div>
 </details>
