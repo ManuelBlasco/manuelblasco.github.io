@@ -11,7 +11,7 @@ redirect_from:
 <div style="text-align: center; margin-bottom: 30px;">
   <img src="https://manuelblasco.github.io/images/profile.png" 
        alt="Manuel Blasco" 
-       style="width: 200px; border-radius: 50%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+       style="width: 200px; border-radius: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
 
 **I am a Ph.D. Candidate in Economics at the University of Bologna. I expect to complete my Ph.D. in 2026 and I am happy to discuss opportunities starting in Fall 2026.**
