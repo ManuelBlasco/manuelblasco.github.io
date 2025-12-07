@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-**I am a Ph.D. Candidate in Economics at the University of Bologna. I expect to complete my Ph.D. in 2026 and will be available to discuss opportunities starting in Fall 2026.**
+**I am a Ph.D. Candidate in Economics at the University of Bologna. I expect to complete my Ph.D. in 2026 and I am available to discuss opportunities starting in Fall 2026.**
 
 I am a microeconomist working in Media Economics and Information Economics. My research examines how digital media incentives shape the supply, demand, and quality of information. I develop theoretical models and complement them with large-scale text and LLM analysis, and I am incorporating experimental methods to identify key mechanisms behind information choice and attention..
 
