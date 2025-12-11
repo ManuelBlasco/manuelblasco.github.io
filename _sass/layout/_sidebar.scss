@@ -262,3 +262,9 @@
     }
   }
 }
+
+
+/* Ocultar avatar lateral siempre (móvil y escritorio) */
+.author__avatar {
+  display: none !important;
+}
