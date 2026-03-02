@@ -40,8 +40,6 @@ I am a microeconomist working on Media and Information Economics and Political E
   </div>
 </details>
 
-<br>
-
 <details>
   <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">
     The curse of popularity
