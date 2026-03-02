@@ -27,14 +27,6 @@ I am a microeconomist working on Media and Information Economics and Political E
 
 ---
 
-## Main Working Papers
-
-<style>
-  details { margin: 0.75rem 0; }
-  summary { cursor: pointer; font-weight: 700; font-size: 1.1em; }
-  details .paper-body { margin-top: 10px; margin-left: 20px; font-style: italic; }
-</style>
-
 <details>
   <summary>Headline Selection and Misleading Information (Job Market Paper)</summary>
   <div class="paper-body">
