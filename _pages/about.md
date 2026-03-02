@@ -22,9 +22,11 @@ I am a microeconomist working on Media and Information Economics and Political E
 
 ### 📢 News & Upcoming
 
-* **Spring 2026:** I am visiting **Princeton University** as a Visiting Student Research Collaborator.. 
+* **Spring 2026:** I am visiting **Princeton University** as a Visiting Student Research Collaborator. 
 * **December 9, 2025:** I presented my Job Market Paper at the **CEPR Paris Symposium 2025**.
+
 ---
+
 ### Working Papers
 
 <details open style="padding: 10px 12px; border: 1px solid #e5e5e5; border-radius: 10px; margin: 0.9rem 0;">
@@ -35,33 +37,15 @@ I am a microeconomist working on Media and Information Economics and Political E
     </span>
   </summary>
   <div style="margin-top:10px; margin-left:18px;">
-    <div style="margin: 6px 0 10px; font-size: 0.95em;"><strong>Status:</strong> Job Market Paper</div>
-
-    <div style="margin-bottom:10px; font-size:0.95em;">
-      <a href="#" style="margin-right:10px;">PDF</a>
-      <a href="#" style="margin-right:10px;">Slides</a>
-      <a href="#" style="margin-right:10px;">Appendix</a>
-      <a href="#" style="margin-right:10px;">Data/Code</a>
-    </div>
-
     <p>
       I develop a model of strategic headline selection where a headline is an endogenously chosen subsignal of underlying information. Although outlets cannot lie, they selectively disclose one truthful component to induce consumers to purchase the full article. In equilibrium, purely economic incentives can produce belief-reversing headlines—previews that move a fully rational reader’s posterior opposite to the direction implied by the full signal—even under hard information constraints and absent ideological motives. These distortions can reduce decision quality and generate inefficiencies despite factual accuracy. Using a novel dataset of 150,000 U.S. news articles and LLM-based text analysis, I show that headline–content divergence increases with an article’s semantic heterogeneity, and that a non-negligible share of headlines meaningfully misrepresent the article’s main message.
     </p>
-
-    <ul style="margin: 8px 0 0 18px;">
-      <li><strong>Theory:</strong> accurate yet belief-reversing previews arise from revenue incentives.</li>
-      <li><strong>Evidence:</strong> divergence rises with semantic heterogeneity in a large U.S. news dataset.</li>
-      <li><strong>Welfare:</strong> headline selection can lower decision quality despite truthful reporting.</li>
-    </ul>
   </div>
 </details>
 
 <details style="margin: 0.9rem 0; padding: 0.25rem 0;">
   <summary style="cursor: pointer; font-weight: 700; font-size: 1.05em;">
     The Curse of Popularity: Endogenous Agendas and Media Bias
-    <span style="display:inline-block; margin-left:8px; padding:2px 8px; border-radius:999px; font-size:0.8em; font-weight:700; border:1px solid #ddd;">
-      Working Paper
-    </span>
   </summary>
   <div style="margin-top:10px; margin-left:18px;">
     <p>
@@ -73,9 +57,6 @@ I am a microeconomist working on Media and Information Economics and Political E
 <details style="margin: 0.9rem 0; padding: 0.25rem 0;">
   <summary style="cursor: pointer; font-weight: 700; font-size: 1.05em;">
     The Scope Wedge: How Private Attention and Public Signaling Diverge in News Demand
-    <span style="display:inline-block; margin-left:8px; padding:2px 8px; border-radius:999px; font-size:0.8em; font-weight:700; border:1px solid #ddd;">
-      Work in Progress
-    </span>
   </summary>
   <div style="margin-top:10px; margin-left:18px;">
     <p>
@@ -83,5 +64,3 @@ I am a microeconomist working on Media and Information Economics and Political E
     </p>
   </div>
 </details>
----
-
