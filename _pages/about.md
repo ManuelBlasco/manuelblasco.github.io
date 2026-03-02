@@ -10,7 +10,7 @@ redirect_from:
 
 <div style="text-align:center; margin-bottom:30px;">
   <div style="width:min(360px,80vw); height:min(360px,80vw); border-radius:50%; overflow:hidden; box-shadow:0 8px 18px rgba(0,0,0,0.16); margin:0 auto;">
-    <img src="https://manuelblasco.github.io/images/profile6.png"
+    <img src="https://manuelblasco.github.io/images/profile5.jpg"
          alt="Manuel Blasco"
          loading="lazy" decoding="async"
          style="width:100%; height:100%; object-fit:cover; object-position:50% 12%; transform:scale(1.15); transform-origin:50% 15%; display:block;">
