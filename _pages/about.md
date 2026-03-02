@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <div style="text-align: center; margin-bottom: 30px;">
-  <img src="https://manuelblasco.github.io/images/profile3.png" 
+  <img src="https://manuelblasco.github.io/images/profile4.png" 
        alt="Manuel Blasco" 
        style="width: 200px; border-radius: 100%; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
 </div>
