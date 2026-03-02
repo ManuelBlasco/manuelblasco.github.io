@@ -22,8 +22,8 @@ I am a microeconomist working on Media and Information Economics and Political E
 
 ### 📢 News & Upcoming
 
-* **Spring 2026:** I will be a Visiting Researcher at **Princeton University**.
-* **December 9, 2025:** I will be presenting my Job Market Paper at the **CEPR Paris Symposium 2025**.
+* **Spring 2026:** I am visiting **Princeton University** as a Visiting Student Research Collaborator.. 
+* **December 9, 2025:** I presented my Job Market Paper at the **CEPR Paris Symposium 2025**.
 
 ---
 
