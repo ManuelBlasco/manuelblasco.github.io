@@ -10,20 +10,20 @@ redirect_from:
 
 <div style="text-align: center; margin-bottom: 30px;">
   <img
-    src="https://manuelblasco.github.io/images/profile5.png"
+    src="https://manuelblasco.github.io/images/profile5.jpg"
     alt="Manuel Blasco"
-    width="220"
-    height="220"
+    width="360"
+    height="450"
     loading="lazy"
     decoding="async"
     style="
-      width: min(220px, 55vw);
-      aspect-ratio: 1 / 1;
+      width: min(360px, 90vw);
+      height: auto;
+      aspect-ratio: 4 / 5;
       object-fit: cover;
-      object-position: 50% 38%;
-      border-radius: 50%;
-      box-shadow: 0 6px 14px rgba(0,0,0,0.18);
-      border: 2px solid rgba(255,255,255,0.6);
+      object-position: 50% 20%;
+      border-radius: 12px;
+      box-shadow: 0 6px 14px rgba(0,0,0,0.14);
       display: block;
       margin: 0 auto;
     "
