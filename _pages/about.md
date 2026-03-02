@@ -13,7 +13,7 @@ redirect_from:
     <img src="https://manuelblasco.github.io/images/profile6.jpeg"
          alt="Manuel Blasco"
          loading="lazy" decoding="async"
-         style="width:100%; height:100%; object-fit:cover; object-position:50% 12%; transform:scale(1.15); transform-origin:50% 15%; display:block;">
+         style="width:100%; height:100%; object-fit:cover; object-position:50% 2%; transform:scale(1.22); transform-origin:50% 10%; display:block;">
   </div>
 </div>
 
