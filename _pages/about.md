@@ -16,14 +16,14 @@ redirect_from:
 
 **I am a Ph.D. Candidate in Economics at the University of Bologna. I expect to complete my Ph.D. in 2026 and I am happy to discuss opportunities starting in Fall 2026.**
 
-I am a microeconomist working in Media and Information Economics. My research examines how economic incentives in digital media shape the supply, demand, and quality of information. I develop theoretical models and complement them with large-scale text and LLM analysis, and I am incorporating experimental methods to identify key mechanisms behind information choice and attention.
+I am a microeconomist working on Media and Information Economics and Political Economy. My research examines how economic incentives in digital media shape the supply, demand, and quality of information. I develop theoretical models and test their predictions using large-scale text data and computational text analysis to identify key mechanisms behind information choice and attention.
 
 ---
 
 ### 📢 News & Upcoming
 
-* **December 9, 2025:** I will be presenting my Job Market Paper at the **CEPR Paris Symposium 2025**.
 * **Spring 2026:** I will be a Visiting Researcher at **Princeton University**.
+* **December 9, 2025:** I will be presenting my Job Market Paper at the **CEPR Paris Symposium 2025**.
 
 ---
 
@@ -35,12 +35,23 @@ I am a microeconomist working in Media and Information Economics. My research ex
   </summary>
   <div style="margin-top: 10px; margin-left: 20px; font-style: italic;">
     <p>
-      I develop a model in which news outlets choose headlines to maximize the “information gap” relative to the full article and thereby stimulate reading. A central result is that economic incentives alone can endogenously generate belief-reversing headlines, even in the absence of ideological bias and with hard information constraints. Using a novel dataset of 100,000 U.S. news articles and LLM-based text analysis, I show that headline–content divergence increases with an article’s semantic heterogeneity, decreases with its informativeness, and that a non-negligible share of headlines meaningfully misrepresent the article’s main message.
+      I develop a model of strategic headline selection where a headline is an endogenously chosen subsignal of underlying information. Although outlets cannot lie, they selectively disclose one truthful component to induce consumers to purchase the full article. In equilibrium, purely economic incentives can produce belief-reversing headlines—previews that move a fully rational reader’s posterior opposite to the direction implied by the full signal—even under hard information constraints and absent ideological motives. Welfare implications follow: distorted preview selection can reduce decision quality and generate inefficiencies despite factual accuracy.. Using a novel dataset of 150,000 U.S. news articles and LLM-based text analysis, I show that headline–content divergence increases with an article’s semantic heterogeneity and that a non-negligible share of headlines meaningfully misrepresent the article’s main message.
     </p>
   </div>
 </details>
 
 <br>
+
+<details>
+  <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">
+    The curse of popularity
+  </summary>
+  <div style="margin-top: 10px; margin-left: 20px; font-style: italic;">
+    <p>
+I develop a model where media outlets jointly choose which topic to cover (agenda setting) and how to report (editorial slant) under limited consumer attention. I characterize the conditions under which a “curse of popularity” emerges: when a topic becomes sufficiently popular, competing outlets converge on that same issue and—rather than conveying the most informative coverage—have incentives to introduce editorial bias, crowding out other topics and reducing welfare. By contrast, when attention is more dispersed, outlets tend to specialize across topics and (in equilibrium) report more truthfully, improving informational quality and decision-making. 
+    </p>
+  </div>
+</details>
 
 <details>
   <summary style="cursor: pointer; font-weight: bold; font-size: 1.1em;">
