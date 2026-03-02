@@ -37,7 +37,8 @@ I am a microeconomist working on Media and Information Economics and Political E
 </details>
 
 <details>
-  <summary>The Curse of Popularity</summary>
+  <summary>The Curse of Popularity: Endogenous Agendas and
+Media Bias </summary>
   <div class="paper-body">
     <p>
       I develop a model where media outlets jointly choose which topic to cover (agenda setting) and how to report (editorial slant) under limited consumer attention. I characterize the conditions under which a “curse of popularity” emerges: when a topic becomes sufficiently popular, competing outlets converge on that same issue and—rather than conveying the most informative coverage—have incentives to introduce editorial bias, crowding out other topics and reducing welfare. By contrast, when attention is more dispersed, outlets tend to specialize across topics and (in equilibrium) report more truthfully, improving informational quality and decision-making.
