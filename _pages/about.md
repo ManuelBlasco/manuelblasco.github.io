@@ -71,3 +71,6 @@ I am a microeconomist working on Media and Information Economics and Political E
     </p>
   </div>
 </details>
+
+html { font-size: 18px; }          /* probá 18px o 19px */
+body { line-height: 1.65; }        /* más legible */
