@@ -43,6 +43,10 @@ I am a microeconomist working on Media and Information Economics and Political E
   </div>
 </details>
 
+---
+
+### Work in Progress
+
 <details style="margin: 0.9rem 0; padding: 0.25rem 0;">
   <summary style="cursor: pointer; font-weight: 700; font-size: 1.05em;">
     The Curse of Popularity: Endogenous Agendas and Media Bias
