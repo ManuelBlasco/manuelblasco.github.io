@@ -8,11 +8,11 @@ redirect_from:
   - /about.html
 ---
 
-<img src="https://manuelblasco.github.io/images/profile5.png"
-     alt="Manuel Blasco"
-     loading="lazy"
-     decoding="async"
-     style="width:100%; height:100%; object-fit:cover; object-position:50% 10%; display:block; transform:scale(0.6); transform-origin:center top; transition:transform .25s ease;">
+<div style="width:min(280px,70vw); height:min(280px,70vw); border-radius:50%; overflow:hidden; margin:0 auto;">
+  <img src="https://manuelblasco.github.io/images/profile5.png"
+    alt="Manuel Blasco"
+    style="width:100%; height:100%; object-fit:cover; object-position:50% 10%; display:block;">
+</div>
 
 **I am a Ph.D. Candidate in Economics at the University of Bologna. I expect to complete my Ph.D. in 2026 and I am happy to discuss opportunities starting in Fall 2026.**
 
