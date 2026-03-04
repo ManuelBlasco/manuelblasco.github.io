@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-<div style="width:min(280px,70vw); height:min(280px,70vw); border-radius:50%; overflow:hidden; margin:0 auto;">
+<div style="width:min(360px,70vw); height:min(360px,70vw); border-radius:50%; overflow:hidden; margin:0 auto;">
   <img src="https://manuelblasco.github.io/images/profile5.png"
     alt="Manuel Blasco"
     style="width:100%; height:100%; object-fit:cover; object-position:50% 10%; display:block;">
