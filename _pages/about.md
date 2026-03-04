@@ -12,7 +12,7 @@ redirect_from:
      alt="Manuel Blasco"
      loading="lazy"
      decoding="async"
-     style="width:100%; height:100%; object-fit:cover; object-position:50% 10%; display:block; transform:scale(1.0); transform-origin:center top; transition:transform .25s ease;">
+     style="width:100%; height:100%; object-fit:cover; object-position:50% 10%; display:block; transform:scale(0.8); transform-origin:center top; transition:transform .25s ease;">
 
 **I am a Ph.D. Candidate in Economics at the University of Bologna. I expect to complete my Ph.D. in 2026 and I am happy to discuss opportunities starting in Fall 2026.**
 
