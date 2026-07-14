@@ -69,3 +69,10 @@ I am a microeconomist working on Media and Information Economics and Political E
     </p>
   </div>
 </details>
+
+<div style="margin: 0.9rem 0; font-weight: 700; font-size: 1.05em;">
+  Civil Right Riots and Fiscal Transfers in the U.S. (with
+  <a href="https://sites.google.com/view/mgeiras/inicio" target="_blank" rel="noopener noreferrer">
+    Martin Gonzalez-Eiras
+  </a>)
+</div>
