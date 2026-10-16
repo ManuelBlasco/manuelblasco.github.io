@@ -73,6 +73,7 @@ I am a microeconomist working on Media and Information Economics and Political E
 <details style="margin: 0.9rem 0; padding: 0.25rem 0;">
   <summary style="cursor: pointer; font-weight: 700; font-size: 1.05em;">
     Pick or Make? Editorial Placement and the Demand for News
+    </span>
     <span style="font-size: 0.8em; font-weight: 400; color: #888; margin-left: 8px;">
       (Draft Coming Soon)
     </span>
