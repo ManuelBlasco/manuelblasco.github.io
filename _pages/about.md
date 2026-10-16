@@ -17,7 +17,7 @@ redirect_from:
 <br>
 **I am a Ph.D. Candidate in Economics at the University of Bologna. I will be on the 2026-2027 job market.**
 
-I am a microeconomist working on Media and Information Economics and Political Economy. My research agenda examines how economic incentives in digital media shape the supply, demand, and quality of information. I develop theoretical models and test their predictions using large-scale text data and computational text analysis to identify key mechanisms behind information choice and attention.
+I am a microeconomist working on Media and Information Economics and Political Economy. My research agenda examines how economic incentives in digital media shape the supply, demand, and quality of information. 
 
 ---
 
@@ -73,7 +73,7 @@ I am a microeconomist working on Media and Information Economics and Political E
 <summary style="cursor: pointer; font-weight: 700; font-size: 1.05em;">
 Pick or Make? Editorial Placement and the Demand for News
 <span style="font-size: 0.8em; font-weight: 400; color: #888; margin-left: 8px;">
-(Draft — Coming Soon)
+(Draft Coming Soon)
 </span>
 </summary>
 <div style="margin-top:10px; margin-left:18px;">
