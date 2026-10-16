@@ -3,9 +3,9 @@ permalink: /
 title: ""
 excerpt: "About me"
 author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+redirect_from:
+  - /about/
+  - /about.html
 ---
 
 <div style="width:min(360px,70vw); height:min(360px,70vw); border-radius:50%; overflow:hidden; margin:0 auto;">
