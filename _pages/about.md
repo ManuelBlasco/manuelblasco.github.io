@@ -88,13 +88,13 @@ redirect_from:
     color: var(--ink-dark);
   }
 
-  /* Banner del Job Market a lo ancho de ambas columnas */
+  /* Banner del Job Market a lo ancho de ambas columnas (en Azul Cobalto) */
   .jm-banner {
     width: 100%;
     box-sizing: border-box;
     background-color: #ffffff;
     border: 1px solid var(--border-warm);
-    border-left: 5px solid var(--tile-red);
+    border-left: 5px solid var(--tile-blue);
     padding: 13px 18px;
     border-radius: 0 8px 8px 0;
     font-size: 1.02em;
@@ -103,7 +103,7 @@ redirect_from:
     margin: 0 0 2.2rem 0;
   }
   .jm-banner strong {
-    color: var(--tile-red);
+    color: var(--tile-blue);
   }
 
   /* Adaptación automática para Celulares y Tablets pequeñas */
@@ -120,7 +120,7 @@ redirect_from:
     }
     .jm-banner {
       border-left: 1px solid var(--border-warm);
-      border-top: 4px solid var(--tile-red);
+      border-top: 4px solid var(--tile-blue);
       border-radius: 8px;
       text-align: center;
     }
@@ -205,7 +205,7 @@ redirect_from:
     color: var(--tile-blue);
   }
 
-  /* Etiquetas (Badges) */
+  /* Etiquetas (Badges) - Fondo de Job Market Paper en Azul Cobalto */
   .badge-jmp {
     display: inline-block;
     margin-left: 8px;
@@ -215,7 +215,7 @@ redirect_from:
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    background-color: var(--tile-red);
+    background-color: var(--tile-blue);
     color: #ffffff;
     vertical-align: middle;
   }
