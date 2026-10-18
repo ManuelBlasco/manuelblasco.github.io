@@ -3,6 +3,7 @@ permalink: /
 title: ""
 excerpt: "Ph.D. Candidate in Economics at the University of Bologna"
 author_profile: true
+classes: wide
 redirect_from: 
   - /about/
   - /about.html
@@ -12,17 +13,30 @@ redirect_from:
   /* Variables de color extraídas de tu foto */
   :root {
     --tile-blue: #164e87;       /* Azul cobalto de las baldosas */
-    --tile-blue-soft: #cbd5e1;  /* Borde suave para el JMP */
-    --tile-red: #b83a24;        /* Rojo ladrillo de las baldosas (para micro-acentos) */
-    --ink-dark: #18181b;        /* Negro carbón (como tu abrigo y líneas del piso) */
-    --ink-body: #27272a;        /* Gris tinta para lectura cómoda de abstracts */
+    --tile-red: #b83a24;        /* Rojo terracota/ladrillo de las baldosas */
+    --tile-yellow: #d99b26;     /* Amarillo mostaza de las baldosas */
+    --ink-dark: #18181b;        /* Negro carbón (abrigo y líneas del piso) */
+    --ink-body: #27272a;        /* Gris tinta para lectura cómoda */
     --ink-muted: #52525b;       /* Gris medio para notas secundarias */
-    --border-warm: #d4d4d8;     /* Borde neutro que armoniza con el fondo de la web */
+    --border-warm: #d4d4d8;     /* Borde neutro */
   }
 
   /* Oculta el título grande redundante de la plantilla */
   .page__title {
     display: none !important;
+  }
+
+  /* Ensancha el contenedor general de la plantilla en pantallas de computadora */
+  @media (min-width: 1024px) {
+    #main {
+      max-width: 1380px !important;
+      padding-left: 2rem !important;
+      padding-right: 2rem !important;
+    }
+    .page {
+      width: calc(100% - 240px) !important;
+      padding-right: 0 !important;
+    }
   }
 
   /* Contenedor general */
@@ -80,7 +94,7 @@ redirect_from:
     box-sizing: border-box;
     background-color: #ffffff;
     border: 1px solid var(--border-warm);
-    border-left: 5px solid var(--tile-blue);
+    border-left: 5px solid var(--tile-red);
     padding: 13px 18px;
     border-radius: 0 8px 8px 0;
     font-size: 1.02em;
@@ -89,7 +103,7 @@ redirect_from:
     margin: 0 0 2.2rem 0;
   }
   .jm-banner strong {
-    color: var(--tile-blue);
+    color: var(--tile-red);
   }
 
   /* Adaptación automática para Celulares y Tablets pequeñas */
@@ -106,24 +120,34 @@ redirect_from:
     }
     .jm-banner {
       border-left: 1px solid var(--border-warm);
-      border-top: 4px solid var(--tile-blue);
+      border-top: 4px solid var(--tile-red);
       border-radius: 8px;
       text-align: center;
     }
   }
 
-  /* Títulos de sección */
+  /* Títulos de sección con subrayado bicolor (Terracota + Gris) */
   .section-heading {
+    position: relative;
     font-size: 1.3em;
     font-weight: 700;
     color: var(--ink-dark);
     border-bottom: 2px solid var(--border-warm);
-    padding-bottom: 0.4rem;
+    padding-bottom: 0.45rem;
     margin-top: 2.2rem;
     margin-bottom: 1.1rem;
   }
+  .section-heading::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -2px;
+    width: 48px;
+    height: 2px;
+    background-color: var(--tile-red);
+  }
 
-  /* Lista de noticias (con guiño sutil al rojo ladrillo de la foto) */
+  /* Lista de noticias */
   .news-list {
     list-style: none;
     padding-left: 0;
@@ -136,27 +160,32 @@ redirect_from:
     color: var(--ink-body);
   }
   .news-list li::before {
-    content: "•";
+    content: "■";
     position: absolute;
     left: 0;
+    top: 1px;
     color: var(--tile-red);
-    font-weight: bold;
-    font-size: 1.1em;
+    font-size: 0.65em;
   }
 
   /* Tarjetas de Papers */
   details.paper-card {
     background: #ffffff;
     border: 1px solid var(--border-warm);
+    border-left: 4px solid transparent;
     border-radius: 10px;
     padding: 15px 20px;
     margin: 1rem 0;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
-    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+    transition: all 0.2s ease;
   }
   details.paper-card:hover {
     border-color: #a1a1aa;
+    border-left-color: var(--tile-blue);
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+  }
+  details.paper-card[open] {
+    border-left: 5px solid var(--tile-blue);
   }
   details.paper-card.jmp {
     border: 1px solid #b6cce2;
@@ -186,7 +215,7 @@ redirect_from:
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    background-color: var(--tile-blue);
+    background-color: var(--tile-red);
     color: #ffffff;
     vertical-align: middle;
   }
@@ -228,6 +257,7 @@ redirect_from:
     margin-bottom: 0;
   }
 </style>
+
 <div class="academic-container">
 
   <!-- Fila 1: Foto a la izquierda + Bio centrada verticalmente a la derecha -->
@@ -237,7 +267,7 @@ redirect_from:
     </div>
     <div class="hero-text">
       <div class="bio-lead">
-        I am a <strong>Ph.D. Candidate in Economics</strong> at the <strong>University of Bologna</strong>. I am a microeconomist working on <strong>Media Economics</strong> and <strong>Political Economy</strong>. My research agenda examines the supply, demand, and quality of information in digital environments..
+        I am a <strong>Ph.D. Candidate in Economics</strong> at the <strong>University of Bologna</strong>. I am a microeconomist working on <strong>Media and Information Economics</strong> and <strong>Political Economy</strong>. My research agenda examines how economic incentives in digital media shape the supply, demand, and quality of information.
       </div>
     </div>
   </div>
