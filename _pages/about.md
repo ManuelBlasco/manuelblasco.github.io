@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "Manuel Blasco"
+title: ""
 excerpt: "Ph.D. Candidate in Economics at the University of Bologna"
 author_profile: true
 redirect_from: 
@@ -9,11 +9,17 @@ redirect_from:
 ---
 
 <style>
+  /* Oculta el título grande redundante de la plantilla si deja espacio en blanco */
+  .page__title {
+    display: none !important;
+  }
+
   /* Contenedor general */
   .academic-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: #2c3e50;
+    color: #1e293b;
     line-height: 1.65;
+    margin-top: 0.5rem;
   }
 
   /* Layout Hero: Foto a la izquierda, Bio a la derecha en PC */
@@ -21,24 +27,25 @@ redirect_from:
     display: flex;
     align-items: center;
     gap: 2.2rem;
-    margin: 1rem 0 2.2rem 0;
+    margin: 0 0 2.2rem 0;
   }
 
-  /* Foto circular */
+  /* Foto en formato retrato rectangular con esquinas redondeadas */
   .profile-hero {
     flex-shrink: 0;
-    width: 210px;
-    height: 210px;
-    border-radius: 50%;
+    width: 250px;
+    height: 300px;
+    border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-    border: 3px solid #ffffff;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    border: 4px solid #ffffff;
+    background-color: #ffffff;
   }
   .profile-hero img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    object-position: 50% 10%;
+    object-position: 50% 25%;
     display: block;
   }
 
@@ -47,15 +54,20 @@ redirect_from:
     flex: 1;
   }
   .bio-lead {
-    font-size: 1.06em;
-    margin-bottom: 1rem;
+    font-size: 1.08em;
+    color: #1e293b;
+    margin-bottom: 1.2rem;
+    line-height: 1.65;
   }
   .jm-banner {
-    background-color: #f8fafc;
-    border-left: 4px solid #1e3a8a;
-    padding: 10px 15px;
+    background-color: #ffffff;
+    border: 1px solid #cbd5e1;
+    border-left: 5px solid #1e3a8a;
+    padding: 12px 16px;
     border-radius: 0 8px 8px 0;
-    font-size: 0.98em;
+    font-size: 1em;
+    color: #0f172a;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
     margin: 0;
   }
 
@@ -64,16 +76,16 @@ redirect_from:
     .hero-section {
       flex-direction: column;
       text-align: center;
-      gap: 1.25rem;
+      gap: 1.5rem;
     }
     .profile-hero {
-      width: min(200px, 60vw);
-      height: min(200px, 60vw);
+      width: min(250px, 75vw);
+      height: min(290px, 85vw);
       margin: 0 auto;
     }
     .jm-banner {
-      border-left: none;
-      border-top: 3px solid #1e3a8a;
+      border-left: 1px solid #cbd5e1;
+      border-top: 4px solid #1e3a8a;
       border-radius: 8px;
       text-align: center;
     }
@@ -83,11 +95,11 @@ redirect_from:
   .section-heading {
     font-size: 1.3em;
     font-weight: 700;
-    color: #1a202c;
-    border-bottom: 2px solid #edf2f7;
+    color: #0f172a;
+    border-bottom: 2px solid #cbd5e1;
     padding-bottom: 0.4rem;
     margin-top: 2.2rem;
-    margin-bottom: 1rem;
+    margin-bottom: 1.1rem;
   }
 
   /* Lista de noticias */
@@ -100,6 +112,7 @@ redirect_from:
     position: relative;
     padding-left: 1.2rem;
     margin-bottom: 0.65rem;
+    color: #1e293b;
   }
   .news-list li::before {
     content: "•";
@@ -109,29 +122,30 @@ redirect_from:
     font-weight: bold;
   }
 
-  /* Tarjetas de Papers (Details / Summary) */
+  /* Tarjetas de Papers (Alto contraste sobre el fondo gris de la página) */
   details.paper-card {
     background: #ffffff;
-    border: 1px solid #e2e8f0;
+    border: 1px solid #cbd5e1;
     border-radius: 10px;
-    padding: 14px 18px;
+    padding: 15px 20px;
     margin: 1rem 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
   }
   details.paper-card:hover {
-    border-color: #cbd5e1;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.03);
+    border-color: #94a3b8;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
   }
   details.paper-card.jmp {
-    border: 1px solid #bfdbfe;
-    border-left: 4px solid #1e3a8a;
-    background: #fcfdff;
+    border: 1px solid #93c5fd;
+    border-left: 5px solid #1e3a8a;
+    background: #ffffff;
   }
   details.paper-card summary {
     cursor: pointer;
     font-weight: 700;
     font-size: 1.06em;
-    color: #1e293b;
+    color: #0f172a;
     line-height: 1.4;
     outline: none;
   }
@@ -143,7 +157,7 @@ redirect_from:
   .badge-jmp {
     display: inline-block;
     margin-left: 8px;
-    padding: 2px 10px;
+    padding: 3px 10px;
     border-radius: 999px;
     font-size: 0.75em;
     font-weight: 700;
@@ -156,14 +170,14 @@ redirect_from:
   .badge-status {
     display: inline-block;
     margin-left: 8px;
-    font-size: 0.85em;
-    font-weight: 400;
-    color: #64748b;
+    font-size: 0.86em;
+    font-weight: 500;
+    color: #475569;
   }
   .coauthor-text {
     font-weight: 400;
     font-size: 0.92em;
-    color: #475569;
+    color: #334155;
   }
   .coauthor-text a {
     font-weight: 600;
@@ -174,17 +188,17 @@ redirect_from:
     text-decoration: underline;
   }
 
-  /* Contenido del Abstract */
+  /* Contenido del Abstract (Texto oscuro y nítido para máxima legibilidad) */
   .abstract-content {
-    margin-top: 12px;
-    padding-top: 12px;
-    border-top: 1px solid #f1f5f9;
-    font-size: 0.96em;
-    color: #334155;
-    line-height: 1.68;
+    margin-top: 14px;
+    padding-top: 14px;
+    border-top: 1px solid #e2e8f0;
+    font-size: 0.98em;
+    color: #1e293b;
+    line-height: 1.72;
   }
   .abstract-content p {
-    margin: 0 0 0.75rem 0;
+    margin: 0 0 0.85rem 0;
   }
   .abstract-content p:last-child {
     margin-bottom: 0;
@@ -193,7 +207,7 @@ redirect_from:
 
 <div class="academic-container">
 
-  <!-- Bloque Hero: Foto a la izquierda + Bio a la derecha -->
+  <!-- Bloque Hero: Foto rectangular a la izquierda + Bio a la derecha -->
   <div class="hero-section">
     <div class="profile-hero">
       <img src="https://manuelblasco.github.io/images/profile5.png" alt="Manuel Blasco">
@@ -216,8 +230,8 @@ redirect_from:
 
   <h3 class="section-heading">Working Papers</h3>
 
-  <!-- Job Market Paper -->
-  <details class="paper-card jmp" open>
+  <!-- Job Market Paper (Cerrado por defecto) -->
+  <details class="paper-card jmp">
     <summary>
       Headline Selection and Misleading Information
       <span class="badge-jmp">Job Market Paper</span>
