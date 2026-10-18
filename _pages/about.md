@@ -9,6 +9,17 @@ redirect_from:
 ---
 
 <style>
+  /* Variables de color extraídas de tu foto */
+  :root {
+    --tile-blue: #164e87;       /* Azul cobalto de las baldosas */
+    --tile-blue-soft: #cbd5e1;  /* Borde suave para el JMP */
+    --tile-red: #b83a24;        /* Rojo ladrillo de las baldosas (para micro-acentos) */
+    --ink-dark: #18181b;        /* Negro carbón (como tu abrigo y líneas del piso) */
+    --ink-body: #27272a;        /* Gris tinta para lectura cómoda de abstracts */
+    --ink-muted: #52525b;       /* Gris medio para notas secundarias */
+    --border-warm: #d4d4d8;     /* Borde neutro que armoniza con el fondo de la web */
+  }
+
   /* Oculta el título grande redundante de la plantilla */
   .page__title {
     display: none !important;
@@ -17,7 +28,7 @@ redirect_from:
   /* Contenedor general */
   .academic-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-    color: #1e293b;
+    color: var(--ink-body);
     line-height: 1.65;
     margin-top: 0.5rem;
   }
@@ -30,14 +41,14 @@ redirect_from:
     margin: 0 0 1.4rem 0;
   }
 
-  /* Foto en formato retrato rectangular proporcionada al texto */
+  /* Foto en formato retrato rectangular */
   .profile-hero {
     flex-shrink: 0;
     width: 240px;
     height: 260px;
     border-radius: 14px;
     overflow: hidden;
-    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+    box-shadow: 0 10px 25px rgba(24, 24, 27, 0.14);
     border: 4px solid #ffffff;
     background-color: #ffffff;
   }
@@ -55,9 +66,12 @@ redirect_from:
   }
   .bio-lead {
     font-size: 1.08em;
-    color: #1e293b;
+    color: var(--ink-body);
     margin: 0;
     line-height: 1.7;
+  }
+  .bio-lead strong {
+    color: var(--ink-dark);
   }
 
   /* Banner del Job Market a lo ancho de ambas columnas */
@@ -65,14 +79,17 @@ redirect_from:
     width: 100%;
     box-sizing: border-box;
     background-color: #ffffff;
-    border: 1px solid #cbd5e1;
-    border-left: 5px solid #1e3a8a;
+    border: 1px solid var(--border-warm);
+    border-left: 5px solid var(--tile-blue);
     padding: 13px 18px;
     border-radius: 0 8px 8px 0;
     font-size: 1.02em;
-    color: #0f172a;
+    color: var(--ink-dark);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
     margin: 0 0 2.2rem 0;
+  }
+  .jm-banner strong {
+    color: var(--tile-blue);
   }
 
   /* Adaptación automática para Celulares y Tablets pequeñas */
@@ -88,8 +105,8 @@ redirect_from:
       margin: 0 auto;
     }
     .jm-banner {
-      border-left: 1px solid #cbd5e1;
-      border-top: 4px solid #1e3a8a;
+      border-left: 1px solid var(--border-warm);
+      border-top: 4px solid var(--tile-blue);
       border-radius: 8px;
       text-align: center;
     }
@@ -99,14 +116,14 @@ redirect_from:
   .section-heading {
     font-size: 1.3em;
     font-weight: 700;
-    color: #0f172a;
-    border-bottom: 2px solid #cbd5e1;
+    color: var(--ink-dark);
+    border-bottom: 2px solid var(--border-warm);
     padding-bottom: 0.4rem;
     margin-top: 2.2rem;
     margin-bottom: 1.1rem;
   }
 
-  /* Lista de noticias */
+  /* Lista de noticias (con guiño sutil al rojo ladrillo de la foto) */
   .news-list {
     list-style: none;
     padding-left: 0;
@@ -116,45 +133,47 @@ redirect_from:
     position: relative;
     padding-left: 1.2rem;
     margin-bottom: 0.65rem;
-    color: #1e293b;
+    color: var(--ink-body);
   }
   .news-list li::before {
     content: "•";
     position: absolute;
     left: 0;
-    color: #1e3a8a;
+    color: var(--tile-red);
     font-weight: bold;
+    font-size: 1.1em;
   }
 
-  /* Tarjetas de Papers (Alto contraste sobre el fondo gris de la página) */
+  /* Tarjetas de Papers */
   details.paper-card {
     background: #ffffff;
-    border: 1px solid #cbd5e1;
+    border: 1px solid var(--border-warm);
     border-radius: 10px;
     padding: 15px 20px;
     margin: 1rem 0;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.04);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.03);
     transition: border-color 0.2s ease, box-shadow 0.2s ease;
   }
   details.paper-card:hover {
-    border-color: #94a3b8;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    border-color: #a1a1aa;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
   }
   details.paper-card.jmp {
-    border: 1px solid #93c5fd;
-    border-left: 5px solid #1e3a8a;
+    border: 1px solid #b6cce2;
+    border-left: 5px solid var(--tile-blue);
     background: #ffffff;
   }
   details.paper-card summary {
     cursor: pointer;
     font-weight: 700;
     font-size: 1.06em;
-    color: #0f172a;
+    color: var(--ink-dark);
     line-height: 1.4;
     outline: none;
+    transition: color 0.15s ease;
   }
   details.paper-card summary:hover {
-    color: #1e3a8a;
+    color: var(--tile-blue);
   }
 
   /* Etiquetas (Badges) */
@@ -163,11 +182,11 @@ redirect_from:
     margin-left: 8px;
     padding: 3px 10px;
     border-radius: 999px;
-    font-size: 0.75em;
+    font-size: 0.74em;
     font-weight: 700;
     text-transform: uppercase;
     letter-spacing: 0.03em;
-    background-color: #1e3a8a;
+    background-color: var(--tile-blue);
     color: #ffffff;
     vertical-align: middle;
   }
@@ -176,19 +195,20 @@ redirect_from:
     margin-left: 8px;
     font-size: 0.86em;
     font-weight: 500;
-    color: #475569;
+    color: var(--ink-muted);
   }
   .coauthor-text {
     font-weight: 400;
     font-size: 0.92em;
-    color: #334155;
+    color: var(--ink-muted);
   }
   .coauthor-text a {
     font-weight: 600;
-    color: #1e3a8a;
+    color: var(--tile-blue);
     text-decoration: none;
   }
   .coauthor-text a:hover {
+    color: var(--tile-red);
     text-decoration: underline;
   }
 
@@ -196,9 +216,9 @@ redirect_from:
   .abstract-content {
     margin-top: 14px;
     padding-top: 14px;
-    border-top: 1px solid #e2e8f0;
+    border-top: 1px solid #e4e4e7;
     font-size: 0.98em;
-    color: #1e293b;
+    color: var(--ink-body);
     line-height: 1.72;
   }
   .abstract-content p {
@@ -208,7 +228,6 @@ redirect_from:
     margin-bottom: 0;
   }
 </style>
-
 <div class="academic-container">
 
   <!-- Fila 1: Foto a la izquierda + Bio centrada verticalmente a la derecha -->
