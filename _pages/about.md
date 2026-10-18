@@ -9,20 +9,28 @@ redirect_from:
 ---
 
 <style>
-  /* Contenedor general para lectura cómoda */
+  /* Contenedor general */
   .academic-container {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     color: #2c3e50;
     line-height: 1.65;
   }
 
-  /* Foto de perfil mejorada */
+  /* Layout Hero: Foto a la izquierda, Bio a la derecha en PC */
+  .hero-section {
+    display: flex;
+    align-items: center;
+    gap: 2.2rem;
+    margin: 1rem 0 2.2rem 0;
+  }
+
+  /* Foto circular */
   .profile-hero {
-    width: min(240px, 55vw);
-    height: min(240px, 55vw);
+    flex-shrink: 0;
+    width: 210px;
+    height: 210px;
     border-radius: 50%;
     overflow: hidden;
-    margin: 0.5rem auto 1.75rem auto;
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     border: 3px solid #ffffff;
   }
@@ -34,18 +42,41 @@ redirect_from:
     display: block;
   }
 
-  /* Bloque de introducción y Job Market */
+  /* Contenedor de texto de la derecha */
+  .hero-text {
+    flex: 1;
+  }
   .bio-lead {
-    font-size: 1.08em;
-    margin-bottom: 1.2rem;
+    font-size: 1.06em;
+    margin-bottom: 1rem;
   }
   .jm-banner {
     background-color: #f8fafc;
     border-left: 4px solid #1e3a8a;
-    padding: 12px 16px;
+    padding: 10px 15px;
     border-radius: 0 8px 8px 0;
-    margin: 1.25rem 0 1.75rem 0;
-    font-size: 1.02em;
+    font-size: 0.98em;
+    margin: 0;
+  }
+
+  /* Adaptación automática para Celulares y Tablets pequeñas */
+  @media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column;
+      text-align: center;
+      gap: 1.25rem;
+    }
+    .profile-hero {
+      width: min(200px, 60vw);
+      height: min(200px, 60vw);
+      margin: 0 auto;
+    }
+    .jm-banner {
+      border-left: none;
+      border-top: 3px solid #1e3a8a;
+      border-radius: 8px;
+      text-align: center;
+    }
   }
 
   /* Títulos de sección */
@@ -162,16 +193,19 @@ redirect_from:
 
 <div class="academic-container">
 
-  <div class="profile-hero">
-    <img src="https://manuelblasco.github.io/images/profile5.png" alt="Manuel Blasco">
-  </div>
-
-  <div class="bio-lead">
-    I am a <strong>Ph.D. Candidate in Economics</strong> at the <strong>University of Bologna</strong>. I am a microeconomist working on <strong>Media and Information Economics</strong> and <strong>Political Economy</strong>. My research agenda examines how economic incentives in digital media shape the supply, demand, and quality of information.
-  </div>
-
-  <div class="jm-banner">
-    <strong>Job Market 2026–2027:</strong> I will be on the academic job market in the 2026–2027 cycle.
+  <!-- Bloque Hero: Foto a la izquierda + Bio a la derecha -->
+  <div class="hero-section">
+    <div class="profile-hero">
+      <img src="https://manuelblasco.github.io/images/profile5.png" alt="Manuel Blasco">
+    </div>
+    <div class="hero-text">
+      <div class="bio-lead">
+        I am a <strong>Ph.D. Candidate in Economics</strong> at the <strong>University of Bologna</strong>. I am a microeconomist working on <strong>Media and Information Economics</strong> and <strong>Political Economy</strong>. My research agenda examines how economic incentives in digital media shape the supply, demand, and quality of information.
+      </div>
+      <div class="jm-banner">
+        <strong>Job Market 2026–2027:</strong> I will be on the academic job market in the 2026–2027 cycle.
+      </div>
+    </div>
   </div>
 
   <h3 class="section-heading">News &amp; Upcoming</h3>
