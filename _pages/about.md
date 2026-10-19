@@ -267,7 +267,7 @@ redirect_from:
     </div>
     <div class="hero-text">
       <div class="bio-lead">
-        I am a <strong>Ph.D. Candidate in Economics</strong> at the <strong>University of Bologna</strong>. I am a microeconomist working on <strong>Media and Information Economics</strong> and <strong>Political Economy</strong>. My research agenda examines how economic incentives in digital media shape the supply, demand, and quality of information.
+        I am a <strong>Ph.D. Candidate in Economics</strong> at the <strong>University of Bologna</strong>. I am a microeconomist working on <strong>Media Economics</strong> and <strong>Political Economy</strong>. My research agenda examines how economic incentives in digital media shape the supply, demand, and quality of information.
       </div>
     </div>
   </div>
