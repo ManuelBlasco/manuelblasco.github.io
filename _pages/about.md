@@ -274,7 +274,7 @@ redirect_from:
 
   <!-- Fila 2: Banner de Job Market ocupando el ancho total debajo de ambas columnas -->
   <div class="jm-banner">
-    <strong>Job Market 2026–2027:</strong> I will be on the academic job market in the 2026–2027 cycle.
+    <strong>I will be on the Academic Job Market 2026-2027:</strong>.
   </div>
 
   <h3 class="section-heading">News &amp; Upcoming</h3>
