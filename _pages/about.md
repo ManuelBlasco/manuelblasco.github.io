@@ -302,25 +302,25 @@ redirect_from:
     </div>
   </details>
 
-  <!-- Working Paper 2 -->
+  <h3 class="section-heading">Work in Progress</h3>
+
+  <!-- WIP 1 (Movido desde Working Papers) -->
   <details class="paper-card">
     <summary>
       Pick or Make? Editorial Placement and the Demand for News
-      <span class="badge-status">(Draft coming soon)</span>
+      <span class="badge-status">(First draft coming soon)</span>
     </summary>
     <div class="abstract-content">
       <p>
-        Articles at the top of a newspaper's homepage are read far more than the rest. Do editors pick winners, placing at the top the articles readers would have read anyway, or does placement make them? We combine a year of daily data on the <em>New York Times</em>, covering every article published, the daily lists of most read and most shared articles, and hourly snapshots of the homepage, and compare the same article with itself across days as editors move it around the page. Moving an article into the top third of the homepage raises its probability of reaching the most-read list roughly tenfold; editors' selection of appealing articles accounts for at most 0 to 7 percent of this premium, and editors mildly demote articles after they are read rather than promote them.
+        Articles at the top of a newspaper's homepage are read far more than the rest. Do editors pick winners, placing at the top the articles readers would have read anyway, or does placement make them? I combine a year of daily data on the <em>New York Times</em>, covering every article published, the daily lists of most read and most shared articles, and hourly snapshots of the homepage, and compare each article with itself across days as editors move it around the page. Giving an article high exposure, the most prominent third of the homepage for much of the day, raises its probability of reaching the most-read list roughly tenfold; editors' selection of appealing articles accounts for between zero and about 7 percent of this premium.
       </p>
       <p>
-        A rank-ordered logit estimated on a valid set of alternatives confirms the magnitude and shows that placement matters far more than content, and more for reading than for sharing. The appeal of a new article is predictable out of sample, mainly through its topic, yet editors respond to that signal only weakly. Counterfactual homepages show that the homepage decides about half of the most-read list, and that a click-maximizing allocation of the same slots would favor day-old US politics over the fresh international and business news editors place at the top, raising the appeal of what is read by about one standard deviation of article length. Among the articles a newspaper publishes, editors largely decide which are read, and they use that power for freshness and importance rather than for clicks.
+        In a demand model estimated on the daily rankings, high exposure is worth about twenty standard deviations of article length, the content characteristic readers respond to most, and placement matters about half as much for sharing as for reading. The homepage decides about half of the most-read list. The appeal of a new article is predictable out of sample, mainly from its topic, yet editors respond to it only weakly: a click-maximizing allocation of the same slots would favor day-old US politics over the fresh international and business news they place at the top, raising the appeal of what is read by about one standard deviation of article length. Among the articles a newspaper publishes, editors largely decide which are read, and they use that power for freshness and importance rather than for clicks.
       </p>
     </div>
   </details>
 
-  <h3 class="section-heading">Work in Progress</h3>
-
-  <!-- WIP 1 -->
+  <!-- WIP 2 -->
   <details class="paper-card">
     <summary>
       Civil Rights Riots and Fiscal Transfers in the U.S.
@@ -335,7 +335,7 @@ redirect_from:
     </div>
   </details>
 
-  <!-- WIP 2 -->
+  <!-- WIP 3 -->
   <details class="paper-card">
     <summary>
       The Curse of Popularity: Endogenous Agendas and Media Bias
