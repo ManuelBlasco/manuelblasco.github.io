@@ -9,6 +9,15 @@ redirect_from:
   - /about.html
 ---
 
+<script>
+  /* Fuerza el tema claro en el navegador y desactiva el modo oscuro de la plantilla */
+  document.documentElement.removeAttribute('data-theme');
+  document.documentElement.setAttribute('data-theme', 'light');
+  try {
+    localStorage.setItem('theme', 'light');
+  } catch (e) {}
+</script>
+
 <style>
   /* Variables de color extraídas de tu foto */
   :root {
@@ -19,6 +28,23 @@ redirect_from:
     --ink-body: #27272a;        /* Gris tinta para lectura cómoda */
     --ink-muted: #52525b;       /* Gris medio para notas secundarias */
     --border-warm: #d4d4d8;     /* Borde neutro */
+    color-scheme: light only;
+  }
+
+  /* ELIMINAR MODO NOCHE: Oculta el botón en la barra superior y fuerza fondo claro */
+  #theme-toggle,
+  .theme-toggle,
+  li:has(#theme-toggle),
+  button[title*="theme" i],
+  a[title*="theme" i],
+  .masthead__menu-item:has(.fa-moon),
+  .masthead__menu-item:has(.fa-sun) {
+    display: none !important;
+  }
+
+  html, body, html[data-theme="dark"], body.dark-theme {
+    background-color: #ffffff !important;
+    color: var(--ink-body) !important;
   }
 
   /* Oculta el título grande redundante de la plantilla */
@@ -101,9 +127,27 @@ redirect_from:
     color: var(--ink-dark);
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.04);
     margin: 0 0 2.2rem 0;
+    text-align: center;
   }
   .jm-banner strong {
     color: var(--tile-blue);
+  }
+
+  /* Botón de descarga de CV integrado */
+  .cv-btn {
+    display: inline-block;
+    margin-left: 10px;
+    padding: 3px 12px;
+    background-color: var(--tile-blue);
+    color: #ffffff !important;
+    font-size: 0.88em;
+    font-weight: 600;
+    border-radius: 6px;
+    text-decoration: none !important;
+    transition: background-color 0.2s ease;
+  }
+  .cv-btn:hover {
+    background-color: var(--tile-red);
   }
 
   /* Adaptación automática para Celulares y Tablets pequeñas */
@@ -122,7 +166,11 @@ redirect_from:
       border-left: 1px solid var(--border-warm);
       border-top: 4px solid var(--tile-blue);
       border-radius: 8px;
-      text-align: center;
+    }
+    .cv-btn {
+      display: inline-block;
+      margin-top: 8px;
+      margin-left: 0;
     }
   }
 
@@ -256,6 +304,60 @@ redirect_from:
   .abstract-content p:last-child {
     margin-bottom: 0;
   }
+
+  /* ESTILOS DE LA SECCIÓN DE TEACHING */
+  .teaching-list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.9rem;
+    margin-top: 1rem;
+  }
+  .teaching-card {
+    background: #ffffff;
+    border: 1px solid var(--border-warm);
+    border-left: 4px solid var(--tile-yellow);
+    border-radius: 10px;
+    padding: 15px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.02);
+  }
+  .teaching-header {
+    font-size: 1.05em;
+    font-weight: 700;
+    color: var(--ink-dark);
+    margin-bottom: 0.55rem;
+  }
+  .teaching-role {
+    font-weight: 500;
+    color: var(--ink-muted);
+  }
+  .course-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .course-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding: 0.3rem 0;
+    border-top: 1px dashed #e4e4e7;
+    font-size: 0.98em;
+    color: var(--ink-body);
+  }
+  .course-item:first-child {
+    border-top: 1px solid #e4e4e7;
+    padding-top: 0.5rem;
+  }
+  .course-item:last-child {
+    padding-bottom: 0;
+  }
+  .course-year {
+    font-size: 0.92em;
+    font-weight: 600;
+    color: var(--tile-blue);
+    margin-left: 1rem;
+    white-space: nowrap;
+  }
 </style>
 
 <div class="academic-container">
@@ -272,16 +374,11 @@ redirect_from:
     </div>
   </div>
 
-  <!-- Fila 2: Banner de Job Market ocupando el ancho total debajo de ambas columnas -->
-<div class="jm-banner">
-  <strong>I will be on the Academic Job Market 2026-2027</strong>.
-</div>
-
-<style>
-  .jm-banner {
-    text-align: center;
-  }
-</style>
+  <!-- Fila 2: Banner de Job Market ocupando el ancho total + Botón de CV -->
+  <div class="jm-banner">
+    <strong>I will be on the Academic Job Market 2026-2027.</strong>
+    <a href="/files/cv.pdf" class="cv-btn" target="_blank" rel="noopener noreferrer">Download CV (PDF)</a>
+  </div>
 
   <h3 class="section-heading">News &amp; Upcoming</h3>
   <ul class="news-list">
@@ -307,7 +404,7 @@ redirect_from:
 
   <h3 class="section-heading">Work in Progress</h3>
 
-  <!-- WIP 1 (Movido desde Working Papers) -->
+  <!-- WIP 1 -->
   <details class="paper-card">
     <summary>
       Pick or Make? Editorial Placement and the Demand for News
@@ -346,5 +443,58 @@ redirect_from:
       </p>
     </div>
   </details>
+
+  <!-- Sección: Teaching -->
+  <h3 class="section-heading">Teaching</h3>
+  <div class="teaching-list">
+
+    <!-- University of Bologna -->
+    <div class="teaching-card">
+      <div class="teaching-header">
+        University of Bologna <span class="teaching-role">— Teaching Assistant</span>
+      </div>
+      <ul class="course-list">
+        <li class="course-item">
+          <span>Health Econometrics</span>
+          <span class="course-year">2025</span>
+        </li>
+        <li class="course-item">
+          <span>Macroeconomics</span>
+          <span class="course-year">2024</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Johns Hopkins University SAIS Europe -->
+    <div class="teaching-card">
+      <div class="teaching-header">
+        Johns Hopkins University SAIS Europe <span class="teaching-role">— Teaching Assistant</span>
+      </div>
+      <ul class="course-list">
+        <li class="course-item">
+          <span>Quantitative Research Methods</span>
+          <span class="course-year">2024</span>
+        </li>
+        <li class="course-item">
+          <span>Statistics for Data Analysis</span>
+          <span class="course-year">2023</span>
+        </li>
+      </ul>
+    </div>
+
+    <!-- National University of Córdoba -->
+    <div class="teaching-card">
+      <div class="teaching-header">
+        National University of Córdoba <span class="teaching-role">— Teaching Assistant</span>
+      </div>
+      <ul class="course-list">
+        <li class="course-item">
+          <span>International Economics</span>
+          <span class="course-year">2014, 2016</span>
+        </li>
+      </ul>
+    </div>
+
+  </div>
 
 </div>
