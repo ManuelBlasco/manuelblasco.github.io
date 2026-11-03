@@ -130,7 +130,7 @@ details.paper-card summary:hover {
 
 <details class="paper-card">
   <summary>
-    Pick or Make? Editorial Placement and the Demand for News
+    Editorial Placement and the Demand for News
     <span class="badge-status">Draft available upon request</span>
   </summary>
   <div class="abstract-content">
