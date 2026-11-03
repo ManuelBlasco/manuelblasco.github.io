@@ -128,19 +128,19 @@ details.paper-card summary:hover {
   </div>
 </details>
 
-<h2 class="section-heading">Work in Progress</h2>
-
 <details class="paper-card">
   <summary>
     Pick or Make? Editorial Placement and the Demand for News
-    <span class="badge-status">(First draft coming soon)</span>
+    <span class="badge-status">Draft available upon request</span>
   </summary>
   <div class="abstract-content">
     <p>
-      Articles prominently displayed on a newspaper's homepage attract the most readers, but does prominence reflect consumer appeal or create it? I study how editorial curation shapes public attention using a novel year-long panel of all articles published by the New York Times, hourly homepage snapshots, and daily most-read rankings. Exploiting within-article variation in placement across days and testing for dynamic selection, I find that editors make rather than pick winners: selection on unobserved appeal explains at most 7 percent of the prominence premium, whereas high homepage exposure multiplies an article's odds of being read fourteenfold. Estimating a rank-ordered demand model, I simulate counterfactual homepages to price editorial gatekeeping. Relative to a click-maximizing benchmark, human editors knowingly forgo predictable readership—primarily on U.S. politics and yesterday's viral stories—to reserve prime display space for fresh international and business reporting.
+      Articles prominently displayed on a newspaper's homepage attract the most readers. Because editors place articles according to their news value, how much of this premium is the effect of placement itself? I study how editorial placement shapes public attention using a year-long panel of all articles published by the \emph{New York Times}, hourly homepage snapshots, and daily most-read rankings. I exploit within-article variation in placement across days and test whether placements track time-varying appeal. The premium reflects placement itself: appeal beyond an article's topic, timing, and measured content explains at most 7 percent of it, whereas high homepage exposure raises an article's probability of reaching the most-read list roughly tenfold. I then estimate a rank-ordered model of demand for articles from the daily menu and simulate counterfactual homepages to price editorial curation. Relative to a click-maximizing allocation of the same slots, editors forgo predictable readership to reserve prime display space for fresh international and business reporting. The readership they forgo lies mainly in U.S.\ politics and in stories at the peak of their readership cycle, typically a day after publication.
     </p>
   </div>
 </details>
+
+<h2 class="section-heading">Work in Progress</h2>
 
 <details class="paper-card">
   <summary>
