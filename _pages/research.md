@@ -117,7 +117,7 @@ details.paper-card summary:hover {
 
 <details class="paper-card jmp">
   <summary>
-    Headline Selection and Misleading Information
+    Strategic Headline Selection
     <span class="badge-jmp">Job Market Paper</span>
     <span class="badge-status">Draft available upon request</span>
   </summary>
@@ -135,7 +135,7 @@ details.paper-card summary:hover {
   </summary>
   <div class="abstract-content">
     <p>
-      Articles prominently displayed on a newspaper's homepage attract the most readers. Because editors place articles according to their news value, how much of this premium is the effect of placement itself? I study how editorial placement shapes public attention using a year-long panel of all articles published by the \emph{New York Times}, hourly homepage snapshots, and daily most-read rankings. I exploit within-article variation in placement across days and test whether placements track time-varying appeal. The premium reflects placement itself: appeal beyond an article's topic, timing, and measured content explains at most 7 percent of it, whereas high homepage exposure raises an article's probability of reaching the most-read list roughly tenfold. I then estimate a rank-ordered model of demand for articles from the daily menu and simulate counterfactual homepages to price editorial curation. Relative to a click-maximizing allocation of the same slots, editors forgo predictable readership to reserve prime display space for fresh international and business reporting. The readership they forgo lies mainly in U.S.\ politics and in stories at the peak of their readership cycle, typically a day after publication.
+      Articles prominently displayed on a newspaper's homepage attract the most readers. Because editors place articles according to their news value, how much of this premium is the effect of placement itself? I study how editorial placement shapes public attention using a year-long panel of all articles published by the New York Times, hourly homepage snapshots, and daily most-read rankings. I exploit within-article variation in placement across days and test whether placements track time-varying appeal. The premium reflects placement itself: appeal beyond an article's topic, timing, and measured content explains at most 7 percent of it, whereas high homepage exposure raises an article's probability of reaching the most-read list roughly tenfold. I then estimate a rank-ordered model of demand for articles from the daily menu and simulate counterfactual homepages to price editorial curation. Relative to a click-maximizing allocation of the same slots, editors forgo predictable readership to reserve prime display space for fresh international and business reporting. The readership they forgo lies mainly in U.S. politics and in stories at the peak of their readership cycle, typically a day after publication.
     </p>
   </div>
 </details>
