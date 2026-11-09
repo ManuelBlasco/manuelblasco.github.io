@@ -188,6 +188,7 @@ I am a <strong>Ph.D. Candidate in Economics</strong> at the <strong>University o
 
 <h3 class="section-heading">News &amp; Upcoming</h3>
 <ul class="news-list">
+<li><strong>Winter 2027:</strong> Joining <strong>UNSW Resilient Democracy Lab</strong> as a Visiting Junior Research Fellow.</li>
 <li><strong>Spring 2026:</strong> Visiting <strong>Princeton University</strong> as a Visiting Student Research Collaborator.</li>
 <li><strong>December 2025:</strong> Presented my Job Market Paper at the <strong>CEPR Paris Symposium 2025</strong>.</li>
 </ul>
